@@ -1,0 +1,6 @@
+{
+  "playerHealth": 100,
+  "playerEnergy": 10,
+  "enemyHealth": 50,
+  "enemyPattern": ["attack", "defend"]
+}
