@@ -16,6 +16,12 @@ const multiply = (a, b) => a * b;
 function greet(name = "World") {
     return "Hello " + name;
 }
+
+// Calling functions
+add(2, 3);               // 5
+multiply(4, 5);          // 20
+greet();                 // "Hello World"
+greet("Alice");          // "Hello Alice"
 ```
 
 ### Arrays
