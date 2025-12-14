@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--
+        Exercise: Quiz Game
+
+        A multiple choice quiz game.
+
+        Requirements:
+        - Display question and 4 answer options
+        - Highlight correct/wrong answer on click
+        - Track and display score
+        - Move to next question after answer
+        - Show final score at end
+
+        Bonus:
+        - Add timer per question
+        - Shuffle questions/answers
+    -->
+
+    <div class="container">
+      <div id="quiz">
+        <h1>Quiz Game</h1>
+        <div id="progress">
+          Question <span id="current">1</span> of <span id="total">5</span>
+        </div>
+        <div id="score">Score: <span id="score-value">0</span></div>
+
+        <div id="question-container">
+          <h2 id="question">Loading...</h2>
+          <div id="answers">
+            <!-- Answer buttons -->
+          </div>
+        </div>
+
+        <button id="next-btn" class="hidden">Next Question</button>
+      </div>
+
+      <div id="results" class="hidden">
+        <h1>Quiz Complete!</h1>
+        <p>
+          Your score: <span id="final-score">0</span> /
+          <span id="final-total">5</span>
+        </p>
+        <button id="restart-btn">Play Again</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

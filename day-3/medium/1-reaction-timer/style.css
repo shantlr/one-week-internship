@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+#game-area {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.1s;
+    user-select: none;
+}
+
+#game-area.waiting {
+    background: #3498db;
+}
+
+#game-area.ready {
+    background: #e74c3c;
+}
+
+#game-area.go {
+    background: #2ecc71;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#time {
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+}

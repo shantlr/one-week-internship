@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+        Exercise: Reaction Timer
+
+        Measure how fast the user can react.
+
+        Requirements:
+        - Click to start, wait for screen to turn green
+        - Screen turns green after random delay (1-5 seconds)
+        - Click when green, show reaction time in ms
+        - If clicked too early (before green), show "Too early!"
+
+        Bonus:
+        - Track best time
+        - Show average of last 5 attempts
+    -->
+
+    <div id="game-area" class="waiting">
+        <h1 id="message">Click to Start</h1>
+        <p id="time"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
