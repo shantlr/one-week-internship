@@ -5,8 +5,6 @@
 ### Variables
 ```javascript
 let age = 25;           // can be reassigned
-const name = "Alice";   // cannot be reassigned
-var old = "avoid";      // old style, avoid using
 ```
 
 ### Types
@@ -14,8 +12,6 @@ var old = "avoid";      // old style, avoid using
 let num = 42;           // number
 let text = "hello";     // string
 let flag = true;        // boolean
-let empty = null;       // null
-let notSet;             // undefined
 ```
 
 ### Operators
@@ -33,11 +29,20 @@ let notSet;             // undefined
 
 ### Conditionals
 ```javascript
-if (condition) {
+let a = 1;
+let b = 2;
+
+let c = "Alice";
+let d = "Bob"
+
+let value_1 = true;
+let value_2 = false;
+
+if (a > 2) {
     // code
-} else if (other) {
+} else if (c[0] < d[0]) {
     // code
-} else {
+} else if (value_1 && value_2) {
     // code
 }
 ```
@@ -50,7 +55,7 @@ for (let i = 0; i < 10; i++) {
 }
 
 // while loop
-while (condition) {
+while (true) {
     // code
 }
 ```
