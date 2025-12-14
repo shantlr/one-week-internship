@@ -1,0 +1,8 @@
+{
+  "name": "day-1",
+  "packageManager": "yarn@4.1.1",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  }
+}

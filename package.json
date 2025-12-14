@@ -1,0 +1,10 @@
+{
+  "name": "one-week-internship",
+  "packageManager": "yarn@4.1.1",
+  "workspaces": [
+    "./day-1"
+  ],
+  "devDependencies": {
+    "vitest": "^2.1.0"
+  }
+}
